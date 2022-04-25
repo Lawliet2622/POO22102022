@@ -4,6 +4,8 @@
  */
 package conceptosbasicos;
 
+import ico.fes.lenovo.Procesador;
+
 /**
  *
  * @author Lawliet
@@ -15,7 +17,10 @@ public class ConceptosBasicos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hola Otra vez");
+        Procesador cpu = new Procesador();
+        cpu.setFrecuencia(5.3f);
+        System.out.println(cpu);
+      
     }
     
 }
